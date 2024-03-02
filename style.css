@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.scoreboard-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.team {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-name {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Angoli arrotondati */
+}
+
+.reset-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #c62121;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Angoli arrotondati */
+}
+
