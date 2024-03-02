@@ -41,7 +41,6 @@ function showError(message) {
     errorElement.innerText = message;
     errorElement.style.display = 'block';
 
-    // Nascondi il messaggio di errore dopo 3 secondi
     setTimeout(() => {
         errorElement.style.display = 'none';
     }, 3000);
