@@ -40,6 +40,11 @@ button {
     border-radius: 5px; /* Angoli arrotondati */
 }
 
+button.decrement {
+    background-color: #ff4500; /* Sfondo rosso */
+}
+
+
 .reset-button {
     font-size: 1.5em;
     padding: 10px 20px;
@@ -49,4 +54,5 @@ button {
     cursor: pointer;
     border-radius: 5px; /* Angoli arrotondati */
 }
+
 
