@@ -17,14 +17,14 @@ function decrementScore(team) {
             scoreTeam1--;
             document.getElementById('score1').innerText = scoreTeam1;
         } else {
-            showError('Impossibile decrementare il punteggio sotto zero per Team 1');
+            showError('Error: Impossibile decrementare il punteggio sotto zero');
         }
     } else if (team === 2) {
         if (scoreTeam2 > 0) {
             scoreTeam2--;
             document.getElementById('score2').innerText = scoreTeam2;
         } else {
-            showError('Impossibile decrementare il punteggio sotto zero per Team 2');
+            showError('Error: Impossibile decrementare il punteggio sotto zero');
         }
     }
 }
