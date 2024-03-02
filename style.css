@@ -55,4 +55,13 @@ button.decrement {
     border-radius: 5px; 
 }
 
-
+.error-message {
+    display: none;
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
