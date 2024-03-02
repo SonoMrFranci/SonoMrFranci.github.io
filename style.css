@@ -37,11 +37,11 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px; /* Angoli arrotondati */
+    border-radius: 5px; 
 }
 
 button.decrement {
-    background-color: #ff4500; /* Sfondo rosso */
+    background-color: #c62121; 
 }
 
 
@@ -52,7 +52,7 @@ button.decrement {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px; /* Angoli arrotondati */
+    border-radius: 5px; 
 }
 
 
