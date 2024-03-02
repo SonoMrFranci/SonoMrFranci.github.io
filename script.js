@@ -16,11 +16,15 @@ function decrementScore(team) {
         if (scoreTeam1 > 0) {
             scoreTeam1--;
             document.getElementById('score1').innerText = scoreTeam1;
+        } else {
+            showError('Impossibile decrementare il punteggio sotto zero per Team 1');
         }
     } else if (team === 2) {
         if (scoreTeam2 > 0) {
             scoreTeam2--;
             document.getElementById('score2').innerText = scoreTeam2;
+        } else {
+            showError('Impossibile decrementare il punteggio sotto zero per Team 2');
         }
     }
 }
@@ -30,4 +34,15 @@ function resetScores() {
     scoreTeam2 = 0;
     document.getElementById('score1').innerText = scoreTeam1;
     document.getElementById('score2').innerText = scoreTeam2;
+}
+
+function showError(message) {
+    const errorElement = document.getElementById('error-message');
+    errorElement.innerText = message;
+    errorElement.style.display = 'block';
+
+    // Nascondi il messaggio di errore dopo 3 secondi
+    setTimeout(() => {
+        errorElement.style.display = 'none';
+    }, 3000);
 }
