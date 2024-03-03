@@ -68,3 +68,14 @@ button.decrement {
     transform: translateX(-50%); 
     border-radius: 5px;
 }
+
+
+.h1 {
+font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #17B169;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
