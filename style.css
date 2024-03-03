@@ -71,8 +71,10 @@ button.decrement {
 }
 
 .header {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
     text-align: center;
-    padding: 20px;
 }
 
 .header h1 {
