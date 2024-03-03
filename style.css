@@ -5,14 +5,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c34;
+    background-color: #1c1e24;
     color: white;
     font-family: 'Orbitron', sans-serif;
 }
 
 .scoreboard-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px; 
 }
@@ -32,29 +32,95 @@ body {
     margin-bottom: 20px;
 }
 
-button {
+.btt {
     font-size: 1.5em;
-    padding: 10px 20px;
+    font-family: "Kode Mono", monospace;
+    padding: 15px;
+    background-color: #17B169;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 5px;    
+}
+
+#decrement {
+    background-color: #c62121;
+    font-size: 1.5em;
+    padding: 15px;
+    font-family: "Kode Mono", monospace;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;  
+    margin-left: 5px;
+    width: 50px;
+}
+
+
+.cn {
+    font-size: 1.5em;
+    padding: 15px;
     background-color: #17B169;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    margin-right: 5px;    
 }
 
-button.decrement {
-    background-color: #c62121;
-}
 
-.reset-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
+
+.team1Name {
+
     background-color: #c62121;
     color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    position: fixed;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
     border: none;
-    cursor: pointer;
     border-radius: 5px;
+    width: 500px;
 }
+
+.team2Name {
+
+    background-color: #c62121;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    position: fixed;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+
+.reset-button {
+
+    background-color: #c62121;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    position: fixed;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
 
 .error-message {
     display: none;
