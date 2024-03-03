@@ -70,12 +70,24 @@ button.decrement {
 }
 
 
-.h1 {
-font-size: 1.5em;
-    padding: 10px 20px;
-    background-color: #17B169;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px; 
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+.ferdinando {
+    text-align: center;
+    padding: 10px;
+}
+
+.ferdinando h6 {
+    margin: 0;
+    font-size: 2em;
 }
