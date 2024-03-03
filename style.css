@@ -72,6 +72,9 @@ button.decrement {
 .header {
     text-align: center;
     padding: 20px;
+    position: fixed;
+    transform: translateX(-50%);
+
 }
 
 .header h1 {
@@ -88,5 +91,5 @@ button.decrement {
 
 .footer h6 {
     margin: 0;
-    font-size: 2em;
+    font-size: 0.5em;
 }
