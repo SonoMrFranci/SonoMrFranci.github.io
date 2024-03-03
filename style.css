@@ -13,7 +13,8 @@ body {
 .scoreboard-container {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Centra gli elementi all'interno del container */
+    justify-content: center;
+    margin-top: 20px; 
 }
 
 .team {
@@ -71,9 +72,7 @@ button.decrement {
 
 .header {
     text-align: center;
-    padding: 120px;
-    position: fixed;
-
+    padding: 20px;
 }
 
 .header h1 {
