@@ -72,7 +72,7 @@ button.decrement {
 
 .header {
     position: fixed;
-    height: 100vh;
+    margin-bottom: 10px;
     text-align: center;
 }
 
