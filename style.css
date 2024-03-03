@@ -83,8 +83,10 @@ button.decrement {
 
 
 .ferdinando {
+    position: fixed;
+    bottom: 20px; /* Distanza dal basso */
+    right: 20px; /* Distanza da destra */
     text-align: center;
-    padding: 10px;
 }
 
 .ferdinando h6 {
