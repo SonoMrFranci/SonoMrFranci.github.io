@@ -80,7 +80,7 @@ button.decrement {
     font-size: 2em;
 }
 
-.footer { /* Renaming .ferdinando to .footer for better semantics */
+.footer { 
     position: fixed;
     bottom: 20px;
     right: 20px;
