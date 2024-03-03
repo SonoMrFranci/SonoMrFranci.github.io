@@ -73,12 +73,16 @@ button.decrement {
 
 .header {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header h1 {
     margin: 0;
     font-size: 2em;
+    position: absolute;
+    top: 20px; /* Distanza dall'alto */
+    left: 50%; /* Centro orizzontalmente */
+    transform: translateX(-50%); /* Correggi la centratura usando translateX */
 }
 
 
