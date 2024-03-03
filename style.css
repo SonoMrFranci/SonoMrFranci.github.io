@@ -71,9 +71,8 @@ button.decrement {
 
 .header {
     text-align: center;
-    padding: 20px;
+    padding: 120px;
     position: fixed;
-    transform: translateX(-50%);
 
 }
 
