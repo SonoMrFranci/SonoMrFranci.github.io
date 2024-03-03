@@ -13,6 +13,7 @@ body {
 .scoreboard-container {
     display: flex;
     flex-direction: row;
+    justify-content: center; /* Centra gli elementi all'interno del container */
 }
 
 .team {
@@ -37,13 +38,12 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 button.decrement {
-    background-color: #c62121; 
+    background-color: #c62121;
 }
-
 
 .reset-button {
     font-size: 1.5em;
@@ -52,7 +52,7 @@ button.decrement {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .error-message {
@@ -63,13 +63,11 @@ button.decrement {
     font-size: 1.2em;
     padding: 10px;
     position: fixed;
-    bottom: 20px; 
-    left: 50%; 
-    transform: translateX(-50%); 
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 5px;
 }
-
-
 
 .header {
     text-align: center;
@@ -79,21 +77,16 @@ button.decrement {
 .header h1 {
     margin: 0;
     font-size: 2em;
-    position: absolute;
-    top: 20px; /* Distanza dall'alto */
-    left: 50%; /* Centro orizzontalmente */
-    transform: translateX(-50%); /* Correggi la centratura usando translateX */
 }
 
-
-.ferdinando {
+.footer { /* Renaming .ferdinando to .footer for better semantics */
     position: fixed;
-    bottom: 20px; /* Distanza dal basso */
-    right: 20px; /* Distanza da destra */
+    bottom: 20px;
+    right: 20px;
     text-align: center;
 }
 
-.ferdinando h6 {
+.footer h6 {
     margin: 0;
     font-size: 2em;
 }
