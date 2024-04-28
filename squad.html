@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Team Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Random Team Generator</h1>
+    <form id="team-generator">
+      <label for="participants">Participants:</label><br>
+      <textarea id="participants" name="participants" rows="4" cols="50"></textarea><br>
+      <label for="num-teams">Number of Teams:</label><br>
+      <input type="number" id="num-teams" name="num-teams" min="1" value="2"><br>
+      <button type="submit">Generate Teams</button>
+    </form>
+    <div id="teams"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
