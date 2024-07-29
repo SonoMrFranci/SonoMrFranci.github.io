@@ -21,7 +21,7 @@ Benvenuto nel Tabellone Sportivo! Questa è un'applicazione web semplice per seg
     git clone https://github.com/SonoMrFranci/SonoMrFranci.github.io
     ```
 
-2. Apri il file `index.html` nel tuo browser preferito.
+2. Apri il file `home.html` nel tuo browser preferito.
 
 3. Segna i punteggi delle squadre premendo i pulsanti "+1".
 
@@ -29,7 +29,7 @@ Benvenuto nel Tabellone Sportivo! Questa è un'applicazione web semplice per seg
 
 ## Personalizzazione
 
-Puoi personalizzare ulteriormente il progetto modificando il file `style.css` per adattarlo alle tue preferenze di stile.
+Puoi personalizzare ulteriormente il progetto modificando il file `styles.css` per adattarlo alle tue preferenze di stile.
 
 ## Licenza
 
