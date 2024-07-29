@@ -21,7 +21,7 @@ h1 {
 }
 
 main {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 #team-names {
@@ -36,6 +36,8 @@ main {
     border-radius: 5px;
     background-color: #1f1f1f;
     color: #fff;
+    width: 90%;
+    max-width: 400px;
 }
 
 #team-names button {
@@ -56,8 +58,10 @@ main {
 
 #scoreboard {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .team {
@@ -74,16 +78,19 @@ main {
     margin: 1rem 0;
 }
 
-button.increment {
+button.increment, button.decrement {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     cursor: pointer;
-    border: 2px solid #4caf50;
     border-radius: 5px;
-    background-color: #4caf50;
-    color: #fff;
     transition: background-color 0.3s, border 0.3s;
     margin: 0.2rem;
+}
+
+button.increment {
+    border: 2px solid #4caf50;
+    background-color: #4caf50;
+    color: #fff;
 }
 
 button.increment:hover {
@@ -92,15 +99,9 @@ button.increment:hover {
 }
 
 button.decrement {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
     border: 2px solid #f44336;
-    border-radius: 5px;
     background-color: #f44336;
     color: #fff;
-    transition: background-color 0.3s, border 0.3s;
-    margin: 0.2rem;
 }
 
 button.decrement:hover {
@@ -156,4 +157,65 @@ footer {
 
 .hidden {
     display: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #team-names input, #team-names button {
+        width: 100%;
+        max-width: none;
+    }
+
+    #scoreboard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .score {
+        font-size: 2.5rem;
+    }
+
+    #reset-button {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    #team-names input, #team-names button {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .score {
+        font-size: 2rem;
+    }
+
+    #reset-button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .credits-button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
 }
