@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+#team-names {
+    margin-bottom: 2rem;
+}
+
+#team-names input {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+#team-names button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+#team-names button:hover {
+    background-color: #45a049;
+    border: 2px solid #45a049;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team {
+    background-color: #1f1f1f;
+    border: 2px solid #333;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.score {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+button.increment {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+    margin: 0.2rem;
+}
+
+button.increment:hover {
+    background-color: #45a049;
+    border: 2px solid #45a049;
+}
+
+button.decrement {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #f44336;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+    margin: 0.2rem;
+}
+
+button.decrement:hover {
+    background-color: #e53935;
+    border: 2px solid #e53935;
+}
+
+#reset-button {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 2px solid #f44336;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+#reset-button:hover {
+    background-color: #e53935;
+    border: 2px solid #e53935;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.credits-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.credits-button:hover {
+    background-color: #666;
+    border: 2px solid #666;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabellone Sportivo - Scuola Tassinari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="score.png" type="image/png">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tabellone Sportivo - Scuola Tassinari</h1>
+    </header>
+    <main>
+        <section id="team-names">
+            <input type="text" id="team1-name" placeholder="Nome Squadra 1">
+            <input type="text" id="team2-name" placeholder="Nome Squadra 2">
+            <button onclick="setTeamNames()">Imposta Nomi Squadre</button>
+        </section>
+        <section id="scoreboard" class="hidden">
+            <div class="team" id="team1">
+                <h2 id="team1-display">Squadra 1</h2>
+                <p class="score" id="score1">0</p>
+                <button class="increment" onclick="incrementScore('score1')">+1</button>
+                <button class="decrement" onclick="decrementScore('score1')">-1</button>
+            </div>
+            <div class="team" id="team2">
+                <h2 id="team2-display">Squadra 2</h2>
+                <p class="score" id="score2">0</p>
+                <button class="increment" onclick="incrementScore('score2')">+1</button>
+                <button class="decrement" onclick="decrementScore('score2')">-1</button>
+            </div>
+        </section>
+        <button onclick="resetScores()" id="reset-button" class="hidden">Reset</button>
+    </main>
+    <footer>
+        <p>© 2024 Scuola Tassinari x Luca Marati</p>
+        <button class="credits-button" onclick="window.location.href='crediti.html'">Crediti</button>
+    </footer>
+</body>
+</html>
