@@ -21,7 +21,7 @@ h1 {
 }
 
 main {
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 #team-names {
@@ -30,7 +30,7 @@ main {
 
 #team-names input {
     padding: 0.5rem;
-    margin: 0.5rem;
+    margin: 0.5rem 0;
     font-size: 1rem;
     border: 2px solid #333;
     border-radius: 5px;
@@ -41,7 +41,7 @@ main {
 }
 
 #team-names button {
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1.2rem;
     font-size: 1rem;
     cursor: pointer;
     border: 2px solid #4caf50;
@@ -69,12 +69,13 @@ main {
     border: 2px solid #333;
     padding: 1rem;
     border-radius: 10px;
-    width: 200px;
+    width: 90%;
+    max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .score {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 1rem 0;
 }
 
@@ -111,7 +112,7 @@ button.decrement:hover {
 
 #reset-button {
     margin-top: 2rem;
-    padding: 0.5rem 2rem;
+    padding: 0.7rem 2rem;
     font-size: 1.2rem;
     cursor: pointer;
     border: 2px solid #f44336;
@@ -134,29 +135,6 @@ footer {
     bottom: 0;
     width: 100%;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.credits-button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border: 2px solid #555;
-    border-radius: 5px;
-    background-color: #555;
-    color: #fff;
-    transition: background-color 0.3s, border 0.3s;
-}
-
-.credits-button:hover {
-    background-color: #666;
-    border: 2px solid #666;
-}
-
-.hidden {
-    display: none;
 }
 
 /* Media Queries */
@@ -165,33 +143,18 @@ footer {
         font-size: 1.5rem;
     }
 
-    #team-names input, #team-names button {
-        width: 100%;
-        max-width: none;
-    }
-
-    #scoreboard {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .team {
-        width: 90%;
+        width: 95%;
         max-width: 300px;
     }
 
     .score {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     #reset-button {
         font-size: 1rem;
         padding: 0.5rem 1.5rem;
-    }
-
-    footer {
-        flex-direction: column;
-        padding: 1rem;
     }
 }
 
@@ -206,15 +169,10 @@ footer {
     }
 
     .score {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #reset-button {
-        font-size: 0.9rem;
-        padding: 0.5rem 1rem;
-    }
-
-    .credits-button {
         font-size: 0.9rem;
         padding: 0.5rem 1rem;
     }
